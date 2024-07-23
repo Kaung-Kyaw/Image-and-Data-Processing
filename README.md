@@ -1,6 +1,6 @@
 # Image-and-Data-Processing
 This repository will include some of the work and experience gained during my Imaging and Data Processing tasks during my 4th year at the University of Nottingham. 
-Topics include: [Image Information Recovery](#Image-Information-Recovery), [Colour Thresholding](#Colour-Thresholding-for-Image-Segmentation), [Edge Detection](#Edge-Detection) 
+Topics include: [Image Information Recovery](#Image-Information-Recovery), [Colour Thresholding](#Colour-Thresholding-for-Image-Segementation ), [Edge Detection](#Edge-Detection) 
 
 ## Image Information Recovery
 One such useful recovery tool would be the ability to regain information that is lost in an image. For example, if the photo was taken in a dark lighting it would be hard to distinguish some of the features in the image. 
