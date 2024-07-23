@@ -1,7 +1,7 @@
-# Image-and-Data-Processing
+## Image-and-Data-Processing
 This repository will include some of the work and experience gained during my Imaging and Data Processing tasks during my 4th year at the University of Nottingham. 
 
-\textbf{Image Information Recovery}
+# Image Information Recovery
 One such useful recovery tool would be the ability to regain information that is lost in an image. For example, if the photo was taken in a dark lighting it would be hard to distinguish some of the features in the image. 
 The different pixel values may not be stretched very much, leading to regions that are barely noticeable (i.e. dark regions). One way to overcome this issue is to stretch out the pixel values to better distinguish these highly similar areas. 
 
@@ -18,7 +18,7 @@ $$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha * Grey Scale Array))}{ln(1 +\a
 
 In non-linear scaling, it uses a more sophisticated approach, where \alpha is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
 
-\textbf{Results of Informtion Recovery} 
+# Results of Informtion Recovery
 ![image](https://github.com/user-attachments/assets/8a21a57d-bdf4-4f77-a7cb-14129c203c20)
 
 ![image](https://github.com/user-attachments/assets/fce97547-ff12-4fc5-a2e5-4e3a3cfbbcd9)
