@@ -1,5 +1,5 @@
 # Image-and-Data-Processing
-This repository will include the work and experience gained during my Imaging and Data Processing tasks during my 4th year at the University of Nottingham. 
+This repository will include some of the work and experience gained during my Imaging and Data Processing tasks during my 4th year at the University of Nottingham. 
 
 \textbf{Image Information Recovery}
 One such useful recovery tool would be the ability to regain information that is lost in an image. For example, if the photo was taken in a dark lighting it would be hard to distinguish some of the features in the image. 
@@ -16,10 +16,15 @@ $$Linear Scaled Array = \dfrac{Grey Scale Array}{Maximum Pixel Value}$$
 
 $$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha * Grey Scale Array))}{ln(1 +\alpha)}$$
 
+In non-linear scaling, it uses a more sophisticated approach, where \alpha is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
+
 \textbf{Results of Informtion Recovery} 
 
 ![image](https://github.com/user-attachments/assets/fce97547-ff12-4fc5-a2e5-4e3a3cfbbcd9)
 
 ![image](https://github.com/user-attachments/assets/024fd36d-ce0c-4f6a-a1e0-53a3cb5b4023)
+
+Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a Bust Stop structure next to the sight on on the left! 
+This simple example really inspired my interest in infomration recovery and data!
 
 
