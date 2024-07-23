@@ -11,4 +11,4 @@ The first task explores this idea and stretches out an original image with infor
 
 This image be recovered by two main ways. Through linear scaling to normalise all values to be between 0 - 1 or through non-linear scaling. 
 
-$$Linear Scaled Array = Grey Scale Array / Maximum Pixel Value$$
+$$Linear Scaled Array = /dfrac{Grey Scale Array}{Maximum Pixel Value}$$
