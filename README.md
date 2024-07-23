@@ -7,3 +7,8 @@ The different pixel values may not be stretched very much, leading to regions th
 The first task explores this idea and stretches out an original image with information loss (darkness) to regain information in greyscale space. 
 
 ![image](https://github.com/user-attachments/assets/ab5106c7-b750-488b-a3a5-f490538ec539)
+
+
+This image be recovered by two main ways. Through linear scaling to normalise all values to be between 0 - 1 or through non-linear scaling. 
+
+$$Linear Scaled Array = Grey Scale Array / Maximum Pixel Value$$
