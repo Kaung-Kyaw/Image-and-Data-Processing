@@ -15,7 +15,7 @@ This image be recovered by two main ways. Through linear scaling to normalise al
 
 $$Linear Scaled Array = \dfrac{Grey Scale Array}{Maximum Pixel Value}$$
 
-$$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha * Grey Scale Array))}{ln(1 +\alpha)}$$
+$$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha \times Grey Scale Array))}{ln(1 +\alpha)}$$
 
 In non-linear scaling, it uses a more sophisticated approach, where \alpha is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
 
@@ -26,7 +26,7 @@ In non-linear scaling, it uses a more sophisticated approach, where \alpha is th
 
 ![image](https://github.com/user-attachments/assets/024fd36d-ce0c-4f6a-a1e0-53a3cb5b4023)
 
-Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a Bust Stop structure next to the sign  on the left! 
+Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a bus stop structure next to the sign  on the left! 
 This simple example really inspired my interest in infomration recovery and data!
 
 ## Colour Thresholding for Image Segementation 
