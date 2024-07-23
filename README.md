@@ -17,7 +17,7 @@ $$Linear Scaled Array = \dfrac{Grey Scale Array}{Maximum Pixel Value}$$
 
 $$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha \times Grey Scale Array))}{ln(1 +\alpha)}$$
 
-In non-linear scaling, it uses a more sophisticated approach, where \alpha is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
+In non-linear scaling, it uses a more sophisticated approach, where $\alpha$, chosen as 20, is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
 
 ### Results of Informtion Recovery
 ![image](https://github.com/user-attachments/assets/8a21a57d-bdf4-4f77-a7cb-14129c203c20)
