@@ -1,6 +1,6 @@
 # Image-and-Data-Processing
 This repository will include some of the work and experience gained during my Imaging and Data Processing tasks during my 4th year at the University of Nottingham. 
-Topics include: [Image Information Recovery](#Results-of-Informtion-Recovery) 
+Topics include: [Image Information Recovery](#Image-Information-Recovery), [Colour Thresholding](#Colour-Thresholding-for-Image-Segmentation), [Edge Detection](#Edge-Detection) 
 
 ## Image Information Recovery
 One such useful recovery tool would be the ability to regain information that is lost in an image. For example, if the photo was taken in a dark lighting it would be hard to distinguish some of the features in the image. 
@@ -29,5 +29,7 @@ In non-linear scaling, it uses a more sophisticated approach, where \alpha is th
 Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a Bust Stop structure next to the sign  on the left! 
 This simple example really inspired my interest in infomration recovery and data!
 
+## Colour Thresholding for Image Segementation 
 
+## Edge Detection
 
