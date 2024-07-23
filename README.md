@@ -19,12 +19,14 @@ $$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha * Grey Scale Array))}{ln(1 +\a
 In non-linear scaling, it uses a more sophisticated approach, where \alpha is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
 
 \textbf{Results of Informtion Recovery} 
+![image](https://github.com/user-attachments/assets/8a21a57d-bdf4-4f77-a7cb-14129c203c20)
 
 ![image](https://github.com/user-attachments/assets/fce97547-ff12-4fc5-a2e5-4e3a3cfbbcd9)
 
 ![image](https://github.com/user-attachments/assets/024fd36d-ce0c-4f6a-a1e0-53a3cb5b4023)
 
-Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a Bust Stop structure next to the sight on on the left! 
+Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a Bust Stop structure next to the sign  on the left! 
 This simple example really inspired my interest in infomration recovery and data!
+
 
 
