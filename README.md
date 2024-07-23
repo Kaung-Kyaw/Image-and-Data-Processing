@@ -30,6 +30,8 @@ Both images were able to recover previously hidden features of the original imag
 This simple example really inspired my interest in infomration recovery and data!
 
 ## Colour Thresholding for Image Segementation 
+A feature of image segmentation is the discrimination of an image based upon different features. This is an important concept that can be used in many different fields with the aid of machine learning. It can distinguish between pixels that are of a specific type (e.g. cat vs background, types of tools such as hammer, saw, nails etc). A simple non-machine learning approach would be to distinguish between colours, which was the aim in this section. 
+
 
 ## Edge Detection
 
