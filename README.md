@@ -67,7 +67,7 @@ Now suppose, the Monkey King were to make clones but they consist of only vertic
 |:--:|
 |Horizontal edge only Wukong|
 
-What would happen if thse two Wukongs combined to form a third kind? This wukong would be made of a combination of both vertical and horizontal edges!
+What would happen if these two Wukongs combined to form a third kind? This wukong would be made of a combination of both vertical and horizontal edges!
 |![image](https://github.com/user-attachments/assets/d955e2be-88ae-48fd-8165-de34455c3b39)|
 |:--:|
 |Total Edge Wukong|
