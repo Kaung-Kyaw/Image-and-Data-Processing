@@ -52,3 +52,18 @@ A powerful method for discovering salient features of an image is known as edge 
 |:--:|
 |Vertical Edge Detection Kernel|
 
+For the purposes of this exercise, an image of Wukong (The Monkey King) has been chosen! 
+
+|![image](https://github.com/user-attachments/assets/58a9a79b-d38c-465f-821d-023ffed2805e)|
+|:--:|
+|Original image of the one and only Monkey King|
+
+Now suppose, the Monkey King were to make clones but they consist of only vertical or horizontal edges. What would they look like? 
+|![image](https://github.com/user-attachments/assets/2ce583d0-7366-4082-9fff-f1d39f2e6329)|
+|:--:|
+|Vertical edge only Wukong|
+
+|![image](https://github.com/user-attachments/assets/d2dc9a16-7ed0-45a8-bcd8-72584c303167)|
+|:--:|
+|Horizontal edge only Wukong|
+
