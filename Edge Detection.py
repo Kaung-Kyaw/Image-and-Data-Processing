@@ -18,7 +18,7 @@ horizontal_edges = np.zeros(shape=(height,width,colour))
 edge = np.zeros(shape=(height,width,colour))
 grayedge = np.zeros(shape=(height,width,colour))
 
-#performs a loop to fwith fitler to detect edge 
+#performs a loop with filter to detect edge 
 #takes out the 2 last rows and columns to avoid end of image
 #creates a box with loop for pixels of interest and multiplies with filter
 #takes vertical and horizontal contributions and gets magnitude
