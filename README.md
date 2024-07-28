@@ -8,7 +8,9 @@ The different pixel values may not be stretched very much, leading to regions th
 
 The first task explores this idea and stretches out an original image with information loss (darkness) to regain information in greyscale space. 
 
-![image](https://github.com/user-attachments/assets/ab5106c7-b750-488b-a3a5-f490538ec539)
+|![image](https://github.com/user-attachments/assets/ab5106c7-b750-488b-a3a5-f490538ec539)|
+|:--:|
+|Origianl image with information loss due to poor lighting|
 
 
 This image be recovered by two main ways. Through linear scaling to normalise all values to be between 0 - 1 or through non-linear scaling. 
@@ -20,11 +22,17 @@ $$Non Linear Scaled Array = \dfrac{ln(1 + (\alpha \times Grey Scale Array))}{ln(
 In non-linear scaling, it uses a more sophisticated approach, where $\alpha$, chosen as 20, is the brightness that can be introduced into the image. The information recovered from the image may be more useful as a result, as can be seen below. 
 
 ### Results of Information Recovery
-![image](https://github.com/user-attachments/assets/8a21a57d-bdf4-4f77-a7cb-14129c203c20)
+|![image](https://github.com/user-attachments/assets/8a21a57d-bdf4-4f77-a7cb-14129c203c20)|
+|:--:|
+|Grey pixel count distribution|
 
-![image](https://github.com/user-attachments/assets/fce97547-ff12-4fc5-a2e5-4e3a3cfbbcd9)
+|![image](https://github.com/user-attachments/assets/fce97547-ff12-4fc5-a2e5-4e3a3cfbbcd9)|
+|:--:|
+|Linear array image recovery|
 
-![image](https://github.com/user-attachments/assets/024fd36d-ce0c-4f6a-a1e0-53a3cb5b4023)
+|![image](https://github.com/user-attachments/assets/024fd36d-ce0c-4f6a-a1e0-53a3cb5b4023)|
+|:--:|
+|Non-linear array image recovery|
 
 Both images were able to recover previously hidden features of the original image. However, the non-linear image now shows a bus stop structure next to the sign  on the left! 
 This simple example really inspired my interest in infomration recovery and data!
@@ -37,10 +45,10 @@ A feature of image segmentation is the discrimination of an image based upon dif
 A powerful method for discovering salient features of an image is known as edge detection. Through a kernel of a predetermined size, which slides over the original image, the edges and features of an image can be discovered. For example, a pewitt kernel (3x3) can be used to determine the horizontal and vertical edges of an image. 
 
 |![image](https://github.com/user-attachments/assets/05d310cc-1fa4-424a-82b2-c4a375961fb5)|
-|::-::|
+|:--:|
 |Horizontal Edge Detection Kernel|
 
 |![image](https://github.com/user-attachments/assets/0be450cf-7cf9-4386-8cd3-327b859e9595)|
-|::-::|
+|:--:|
 |Vertical Edge Detection Kernel|
 
